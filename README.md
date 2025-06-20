@@ -128,4 +128,3 @@ Content-Type: application/json
 ```http
 DELETE /product/{id}
 ```
----
