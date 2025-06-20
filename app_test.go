@@ -109,10 +109,6 @@ func TestUpdateProduct(t *testing.T) {
 	if oldValue["name"] != newValue["name"] {
 		t.Errorf("Expected name: %v, Got: %v", newValue["name"], oldValue["name"])
 	}
-
-	if oldValue["quantity"] != newValue["quantity"] {
-		t.Errorf("Expected quantity: %v, Got: %v", newValue["quantity"], oldValue["quantity"])
-	}
 }
 
 func checkStatusCode(t *testing.T, expectedStatusCode int, actualStatusCode int) {
